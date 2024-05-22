@@ -1,11 +1,11 @@
-import "./Hero.css";
+import "./style.css";
 
-import MugShot from "../assets/theodor-dumitriu.jpg";
+import MugShot from "../../assets/theodor-dumitriu.jpg";
 
 export default function Hero() {
   return (
     <>
-      <div className="hero container d-flex align-items-center justify-content-space-between">
+      <section className="hero container d-flex align-items-center justify-content-space-between">
         <div className="hero__caption-container">
           <h1>Me... in a few wise words</h1>
           <p className="hero__caption">
@@ -21,7 +21,7 @@ export default function Hero() {
         <div className="hero__mugshot-container">
           <img className="hero__mugshot" src={MugShot} alt="Theodor Dumitriu" />
         </div>
-      </div>
+      </section>
     </>
   );
 }

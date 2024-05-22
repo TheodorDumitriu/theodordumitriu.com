@@ -70,10 +70,11 @@
   margin-right: 0.5rem;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .header {
     flex-direction: column;
     align-items: flex-start;
+    height: 16rem;
   }
 
   .header__contact-container {
@@ -83,5 +84,16 @@
 
   .header__contact-card {
     margin-left: var(--spacer_2);
+  }
+
+  .header__mail,
+  .header__phone,
+  .header__linkedin {
+    font-size: var(--font_14);
+  }
+
+  .header__contact-clicker {
+    font-size: var(--font_14);
+    padding: var(--spacer_1) var(--spacer_1);
   }
 }

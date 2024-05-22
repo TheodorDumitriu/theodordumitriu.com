@@ -1,0 +1,19 @@
+.teckskill__para {
+  margin-bottom: var(--spacer_2);
+}
+
+.techskill__root {
+  color: #4e9a06;
+}
+
+.techskill__git {
+  color: #729fcf;
+}
+
+.techskill__git-main {
+  color: #cc0000;
+}
+
+.techskill__git-cross {
+  color: #fce94f;
+}

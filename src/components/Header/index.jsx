@@ -1,8 +1,8 @@
 import { useState } from "react";
 
-import "./Header.css";
+import "./style.css";
 
-import useMountTransition from "./useMountTransition";
+import useMountTransition from "../useMountTransition";
 
 export default function Header() {
   const [contactDrawer, setContactDrawer] = useState(false);
@@ -45,7 +45,6 @@ export default function Header() {
                     viewBox="0 0 24 24"
                     data-supported-dps="24x24"
                     fill="currentColor"
-                    class="mercado-match"
                     width="24"
                     height="24"
                     focusable="false"

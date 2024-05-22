@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
 /* ----- VARIABLES ----- */
 
 :root {
@@ -115,6 +118,13 @@ img {
   max-width: 100%;
 }
 
+code {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: var(--font_weight_700);
+  font-size: var(--font_24);
+}
+
 /* ----- GLOBAL ----- */
 .container {
   margin: 0 auto;
@@ -175,6 +185,10 @@ img {
 #root {
   display: flex;
   flex-direction: column;
+}
+
+.main {
+  margin-bottom: var(--spacer_4);
 }
 
 @media (max-width: 768px) {

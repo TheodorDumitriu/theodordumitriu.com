@@ -3,7 +3,7 @@
 }
 
 .hero__caption {
-  font-size: var(--font_16);
+  font-size: var(--font_18);
   line-height: 1.5;
   max-width: 80%;
 }
@@ -20,4 +20,16 @@
 .hero {
   padding-top: var(--spacer_4);
   padding-bottom: var(--spacer_4);
+  margin-bottom: var(--spacer_4);
+}
+
+@media (max-width: 768px) {
+  .hero.container {
+    flex-direction: column;
+  }
+
+  .hero {
+    padding-top: var(--spacer_2);
+    padding-bottom: var(--spacer_2);
+  }
 }

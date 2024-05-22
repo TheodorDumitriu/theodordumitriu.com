@@ -3,6 +3,7 @@ import "./App.css";
 
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import TeckSkills from "./components/TechSkills";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -10,7 +11,10 @@ function App() {
   return (
     <>
       <Header />
-      {/* <Hero /> */}
+      <main className="main">
+        <Hero />
+        <TeckSkills />
+      </main>
     </>
   );
 }

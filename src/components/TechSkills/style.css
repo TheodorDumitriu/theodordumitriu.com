@@ -1,0 +1,9 @@
+.techskills__title {
+  margin-bottom: var(--spacer_4);
+}
+
+.techskills__code {
+  background-color: #2e2e2e;
+  padding: var(--spacer_4);
+  border-radius: var(--border_radius_5);
+}
