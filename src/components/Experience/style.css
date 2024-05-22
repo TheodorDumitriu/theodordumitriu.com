@@ -1,13 +1,10 @@
-.altskill-container {
-  flex: 0 0 calc(50% - (var(--spacer_2) / 2));
-}
-
-.altskill__item {
+.experience__item {
   font-size: var(--font_22);
   margin-bottom: var(--spacer_2);
 }
 
-.altskill__list {
+.experience__list {
   list-style: disc;
   padding-left: var(--spacer_2);
+  margin-bottom: var(--spacer_6);
 }
