@@ -19,7 +19,7 @@ export default function Hero() {
           </p>
         </div>
         <div className="hero__mugshot-container">
-          <img src={MugShot} alt="Theodor Dumitriu" />
+          <img className="hero__mugshot" src={MugShot} alt="Theodor Dumitriu" />
         </div>
       </div>
     </>

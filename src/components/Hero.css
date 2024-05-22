@@ -12,3 +12,12 @@
 .hero__mugshot-container {
   flex: 0 0 calc(50% - (var(--spacer_2) / 2));
 }
+
+.hero__mugshot {
+  border-radius: var(--border_radius_5);
+}
+
+.hero {
+  padding-top: var(--spacer_4);
+  padding-bottom: var(--spacer_4);
+}
