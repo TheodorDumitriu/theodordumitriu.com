@@ -1,0 +1,10 @@
+.header {
+  padding-top: var(--spacer_2);
+  padding-bottom: var(--spacer_2);
+}
+
+.header__title {
+  font-size: 3.4rem;
+  margin-bottom: var(--spacer_1);
+  display: block;
+}
