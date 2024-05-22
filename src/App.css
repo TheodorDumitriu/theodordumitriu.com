@@ -191,8 +191,16 @@ code {
   margin-bottom: var(--spacer_4);
 }
 
+.alt-skills {
+  gap: var(--spacer_2);
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 3.2rem;
+  }
+
+  code {
+    font-size: var(--font_18);
   }
 }

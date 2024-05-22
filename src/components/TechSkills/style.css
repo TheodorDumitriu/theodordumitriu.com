@@ -1,9 +1,29 @@
-.techskills__title {
-  margin-bottom: var(--spacer_4);
-}
-
 .techskills__code {
   background-color: #2e2e2e;
   padding: var(--spacer_4);
   border-radius: var(--border_radius_5);
+}
+
+.techskills__blinker {
+  height: 3.3rem;
+  width: 1.5rem;
+  display: block;
+  margin-bottom: var(--spacer_2);
+  margin-left: var(--spacer_1);
+  background-color: var(--white_color);
+  border: 1px solid var(--white_color);
+  animation: blinker 0.8s infinite;
+}
+
+.techskills {
+  margin-bottom: var(--spacer_8);
+}
+
+@keyframes blinker {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }

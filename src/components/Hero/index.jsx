@@ -13,7 +13,7 @@ export default function Hero() {
             the frontiers of new innovations. Over the past six years, I have
             thrived as both a Full Stack Developer and a Tech Lead within a
             dynamic digital agency. In this role, I orchestrated cohesive teams
-            of developers, UX/UI designers, consultants. Now, I am on the
+            of developers, UX/UI designers and consultants. Now, I am on the
             lookout for new challenges and opportunities within the
             ever-evolving realm of the tech world.
           </p>
