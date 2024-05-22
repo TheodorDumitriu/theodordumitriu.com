@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import TeckSkills from "./components/TechSkills";
 import AltSkillLister from "./components/AltSkillLister";
 import Experience from "./components/Experience";
+import Education from "./components/Education";
 
 function App() {
   const [count, setCount] = useState(0);
