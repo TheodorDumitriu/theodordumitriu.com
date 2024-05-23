@@ -32,4 +32,8 @@
     padding-top: var(--spacer_2);
     padding-bottom: var(--spacer_2);
   }
+
+  .hero__caption {
+    max-width: 100%;
+  }
 }
