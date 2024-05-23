@@ -7,6 +7,7 @@ import TeckSkills from "./components/TechSkills";
 import AltSkillLister from "./components/AltSkillLister";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
+import Footer from "./components/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -96,6 +97,22 @@ function App() {
             ]}
           />
         </section>
+        <section className="ed container">
+          <h2>Education</h2>
+          <Education
+            edName="Digital communication manager"
+            edLocationDuration="Master | 2017 | Marcorel - Paris"
+          />
+          <Education
+            edName="Natural Language Processing (NLP) Engineer"
+            edLocationDuration="Master | 2011 - 2013 | Strasbourg University"
+          />
+          <Education
+            edName="Theatrical and cinematographic studies"
+            edLocationDuration="Bachelor's degree | 2008 - 2011 | School of Theatrical and Cinematographic Art, Spiru Haret - Bucharest, Romania"
+          />
+        </section>
+        <Footer />
       </main>
     </>
   );
